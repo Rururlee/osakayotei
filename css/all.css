@@ -5397,6 +5397,7 @@ button.bg-purple:focus {
 @supports (position: sticky) {
   .sticky-top {
     position: sticky;
+    position: -webkit-sticky;
     top: -2px;
     z-index: 1020; } }
 
