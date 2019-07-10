@@ -4393,7 +4393,8 @@ a.close.disabled {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: #fff; }
+  color: #fff;
+  font-size: 1rem; }
 
 .carousel {
   position: relative; }
@@ -5396,7 +5397,7 @@ button.bg-purple:focus {
 @supports (position: sticky) {
   .sticky-top {
     position: sticky;
-    top: 0;
+    top: -2px;
     z-index: 1020; } }
 
 .sr-only {
@@ -7547,56 +7548,6 @@ ul.notice {
     font-size: 1.4rem; }
   .column .gift h2 {
     font-size: 1.25rem; } }
-
-/* ScrollBar */
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
-  background-color: rgba(0, 0, 0, 0); }
-
-::-webkit-scrollbar {
-  width: 10px;
-  height: 0px;
-  background-color: #141416; }
-
-::-webkit-scrollbar-thumb {
-  border-radius: 0px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #103069; }
-
-.bg-section {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 115vh;
-  z-index: 1;
-  background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-#bg-section01 {
-  background-image: url("../img/bg.jpg"); }
-
-#parallax_1 {
-  position: relative;
-  z-index: 3;
-  padding: 100vh 0 0;
-  background: #0c0c0e;
-  overflow: hidden; }
-
-#parallax_2 {
-  position: relative;
-  background: #0c0c0e;
-  z-index: 3; }
-
-@media (max-width: 414.98px) {
-  .bg-section {
-    width: 100%;
-    height: 60vh; }
-  #parallax_1 {
-    padding: 60vh 0 0; } }
 
 th, td {
   vertical-align: middle !important; }
