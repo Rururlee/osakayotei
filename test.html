@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>龍之塔防</title>
+    <link rel="stylesheet" href="./css/par.css">
+</head>
+
+<body>
+    <div id="luxy">
+       
+            <div id="section03">
+                <div id="bg-section02" class="luxy-el bg-section" data-speed-y="-10"></div>
+            </div>
+  
+            <div id="section05">
+                <div id="bg-section03" class="luxy-el bg-section" data-speed-y="-10"></div>
+            </div>
+
+    </div>
+    <script src="js/luxy.js"></script>
+    <script>
+    luxy.init({
+        wrapper: '#luxy',
+        targets: '.luxy-el',
+        wrapperSpeed: 0.08
+    });
+    </script>
+</body>
+
+</html>
