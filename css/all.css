@@ -7601,6 +7601,9 @@ ul.notice {
 th, td {
   vertical-align: middle !important; }
 
+.row:before, .row:after {
+  display: none !important; }
+
 html {
   font-size: 0.8rem;
   position: relative; }
