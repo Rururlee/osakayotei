@@ -170,12 +170,13 @@ sup {
   top: -.5em; }
 
 a {
-  color: #3b97f4;
+  color: #fff;
   text-decoration: none;
-  background-color: transparent; }
+  background-color: transparent;
+  transition: .3s ease-in-out; }
   a:hover {
-    color: #0c71d6;
-    text-decoration: underline; }
+    color: #9b9b9b;
+    text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -477,8 +478,6 @@ pre {
 
 .container {
   width: 100%;
-  padding-right: 7.5px;
-  padding-left: 7.5px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
@@ -496,8 +495,6 @@ pre {
 
 .container-fluid {
   width: 100%;
-  padding-right: 7.5px;
-  padding-left: 7.5px;
   margin-right: auto;
   margin-left: auto; }
 
@@ -3041,8 +3038,7 @@ input[type="button"].btn-block {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  justify-content: space-between; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: flex;
@@ -7567,6 +7563,41 @@ td {
   background: none !important;
   padding: 0 !important; }
 
+.osakaopacity {
+  opacity: 0.8; }
+
+.osaka a {
+  width: 16%;
+  padding: 1rem 0;
+  text-align: center; }
+  .osaka a:nth-child(1) {
+    background: #35284A; }
+  .osaka a:nth-child(2) {
+    background: #816F90; }
+  .osaka a:nth-child(3) {
+    background: #FB7D79; }
+  .osaka a:nth-child(4) {
+    background: #FB9D7E; }
+  .osaka a:nth-child(5) {
+    background: #FDBD77; }
+  .osaka a:nth-child(6) {
+    background: #94C5A2; }
+
+.osakatitle {
+  color: #ffffff; }
+  .osakatitle__1 {
+    background: #35284A; }
+  .osakatitle__2 {
+    background: #816F90; }
+  .osakatitle__3 {
+    background: #FB7D79; }
+  .osakatitle__4 {
+    background: #FB9D7E; }
+  .osakatitle__5 {
+    background: #FDBD77; }
+  .osakatitle__6 {
+    background: #94C5A2; }
+
 html {
   font-size: 0.8rem;
   position: relative; }
@@ -7592,7 +7623,11 @@ body {
   background-color: #f6f6f6;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Noto Sans TC', sans-serif;
-  background-color: #0c0c0e; }
+  background: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
 
 .wrapper {
   flex: 1 0 auto;
