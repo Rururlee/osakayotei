@@ -7563,23 +7563,6 @@ td {
   background: none !important;
   padding: 0 !important; }
 
-.osakabg {
-  display: table;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background: url(../img/bg.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.osakaopacity {
-  opacity: 0.8; }
-
 .osaka a {
   width: 16%;
   padding: 1rem 0;
